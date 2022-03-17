@@ -1,0 +1,167 @@
+body,
+html,
+a,
+div,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+/* Inicio Cabeçalho */
+header {
+  margin: 67px 0 0 58px;
+}
+
+header h1 {
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 116%;
+  /* or 102px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  text-shadow: 0px 6px 0px #ffffff;
+}
+
+header h3 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 116%;
+  /* or 65px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  margin-top: 48px;
+}
+
+/* Fim Cabeçalho */
+
+/* Inicio Vitrine*/
+
+#vitrine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px 20vh 0 20vh;
+}
+
+.cards-itens {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 259px;
+
+  background: #ffffff;
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-bottom: 14px;
+
+  box-sizing: border-box;
+}
+
+.cards-itens:hover {
+  border: 1px solid rgb(233, 233, 233);
+}
+
+.cards-itens img {
+  margin: 16px;
+  width: 227px;
+  height: 224px;
+}
+
+#estrela {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin: 0 0 10px 14px;
+}
+
+#estrela img {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+.cards-itens p {
+  text-align: justify;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.0275em;
+  color: #19191d;
+  margin: 0 18px 17px 14px;
+}
+
+.cards-itens span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0 0 9px 8px;
+}
+#texto-Riscado {
+  height: 39px;
+  font-weight: 600;
+  display: flex;
+  margin: 0 0 0 8px;
+  padding: 0;
+}
+#texto-Riscado span {
+  color: red;
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.cards-itens button {
+  background: #ffffff;
+  border: 1px solid #9dc2ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.018em;
+  color: #2264d1;
+  margin: 0 163px 14px 8px;
+}
+
+.cards-itens button:hover {
+  border: 2px solid #9dc2ff;
+  background-color: #e2e2e270;
+}
+/* Fim Vitrine*/
